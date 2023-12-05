@@ -1,3 +1,14 @@
+function argumentsAreHandy(shoutout){
+    console.log("do you want to give a shout out")
+    console.log(shoutout);
+}
+argumentsAreHandy("Super Shout out");
+argumentsAreHandy("hou het netjes!");
+argumentsAreHandy("je bent super goed bezig");
+
+
+
+
 function superMooieGlobalFunction() {
     console.log("ik ben global");
     console.log("dus je mag mij overal aanroepen");
@@ -7,8 +18,7 @@ function superMooieGlobalFunction() {
 function aanroepVoorbeeld() {
     
 }
-superMooieGlobalFunction();
-superMooieGlobalFunction();
+
 superMooieGlobalFunction();
 aanroepVoorbeeld();
 
