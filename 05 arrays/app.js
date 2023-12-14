@@ -23,6 +23,18 @@ class App {
             console.log(nummer)
 
         }
+        let headersByCssClass = document.getElementsByClassName("bandName");
+
+        for (let i = 0; i < headersByCssClass.length; i++) {
+            const bandName = headersByCssClass[i];
+            console.log(bandName)
+            bandName.innerText = "series"
+        }
+        headersByCssClass[3]. innerText = "tv"
+        headersByCssClass[2]. innerText = "paashaas"
+        headersByCssClass[4]. innerText = "boom"
+
+
     }
 }
 let app = new App();
