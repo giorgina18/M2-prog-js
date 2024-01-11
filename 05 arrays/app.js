@@ -34,6 +34,7 @@ class App {
         headersByCssClass[2]. innerText = "paashaas"
         headersByCssClass[4]. innerText = "boom"
 
+        data = ["skillet(1)", "viezeAsbak(2)", "dikkeBaap(3)", "vlinderVos(4)", "natteVisstick(5)"]
 
     }
 }
