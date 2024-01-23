@@ -1,25 +1,31 @@
 class Greet {
     constructor() {
-        console.log("greetings!");
     }
-
+ showGreeting(){
+    console.log("greetings")
+ }
 }
 
 let greet = new Greet()
-let greet1 = new Greet()
-let greet2 = new Greet()
-let greet3 = new Greet()
+greet.showGreeting();
 
 
 
 class GoodBye {
     constructor() {
-        console.log("bye bye:)!");
     }
+showBye(){
+    console.log("bye bye:)!");
+}
 
 }
 
 let bye = new GoodBye()
+bye.showBye();
+greet.showGreeting();
+bye.showBye();
+greet.showGreeting();
+bye.showBye();
 
 
 
