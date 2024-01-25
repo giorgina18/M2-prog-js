@@ -1,30 +1,3 @@
-// class Dino {
-//     constructor(naam, vleeseten, leeftijd) {
-//         this.naam = naam;
-//         this.vleeseten = vleeseten;
-//         this.leeftijd = leeftijd;
-//     }
-// }
-// let dino = new Dino("astrid", true, 18)
-
-// console.log(dino)
-
-// class App {
-//     runApplication() {
-//         console.log("hello")
-
-//         let dino = new Dino()
-//         console.log(dino + "DINO 'do the roar'")
-//         console.log(dino)
-//     }
-// }
-
-// let app = new App();
-// app.runApplication();
-
-
-
-
 class App {
     runApplication() {
         console.log("hello world!");
